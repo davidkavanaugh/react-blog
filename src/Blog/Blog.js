@@ -25,7 +25,7 @@ async componentDidMount() {
 render() {
   return (
     <section>
-      {this.state.posts.map(post => 
+      {this.state.posts.reverse().map(post => 
         <article className="blog-post" key={post.id}>
          <div className="blog-post__title">{post.title}</div>
          <div className="blog-post__author">by {post.author.username}</div>
