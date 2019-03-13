@@ -22,6 +22,7 @@ class BlogPost extends Component {
       return (
         <div className="blogpost">
           <h2 className="blogpost__title">{this.state.blogpost.title}</h2>
+          <img className="blogpost__image"src={`http://localhost:1337${this.state.blogpost.image.url}`} alt={this.state.blogpost.title} /><br />
           <p className="blogpost__description">
             {this.state.blogpost.content}
           </p>
