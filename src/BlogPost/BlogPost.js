@@ -20,18 +20,16 @@ class BlogPost extends Component {
   render() {
     if (!this.state.loading) {
       return (
-        <div className="product">
-          <div className="product__information">
-            <h2 className="Product-title">{this.state.blogpost.title}</h2>
-          </div>
-          <div className="product__description">
+        <div className="blogpost">
+          <h2 className="blogpost__title">{this.state.blogpost.title}</h2>
+          <p className="blogpost__description">
             {this.state.blogpost.content}
-          </div>
+          </p>
         </div>
       );
     }
 
-    return (<h2>Waiting for API...</h2>);
+    return (<h4>Loading</h4>);
   }
 }
 

@@ -38,7 +38,6 @@ render() {
           <h3>{post.title}</h3>
           {/* <img src={`http://localhost:1337${post.image.url}`} alt={post.title} /><br /> */}
         </Link>
-        {/* <BuyButton post={post} /> */}
       </div>
       )}
     </section>

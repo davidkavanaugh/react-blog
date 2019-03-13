@@ -1,20 +1,20 @@
-.blog-post{
+.featured-blog-post{
     
 }
 
-.blog-post__title{
+.featured-blog-post__title{
     font-weight: 400;
     font-size: 1.2em;
 }
 
-.blog-post__author{
+.featured-blog-post__author{
     font-weight: 300;
     font-style: italic;
     font-size: 0.9em;
     padding-bottom: 10px;
 }
 
-.blog-post__content{
+.featured-blog-post__content{
     font-weight: 400;
     padding-bottom: 25px;
 
